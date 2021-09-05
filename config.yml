@@ -1,0 +1,23 @@
+home:
+  tab_name: "HOME"
+  file_location: "index.html"
+  title: "hey"
+  welcome: "yo"
+  bottom_left_message: "simpl"
+  bottom_author_name: "Michael Bleuez"
+  avatar: "assets/avatar.jpg"
+
+  lead_card:
+    title: "ABOUT ME"
+    links_to: "gg"
+    bold_message: "I'm a man of few words, but (too?) many ideas"
+    message: "- \"A software engineer who has 15 years of experience in a domain that exists since five\" - Stephen Hawking, June 2009
+
+      - \"42\" - Deep Thought, roughly 10M years before today
+
+      - \"Hopefully the skills are better than the sense of humour\" - Plato, 400.BC "
+    read_time: ""
+    avatar: "assets/avatar.jpg"
+    author_name: "Michael Bleuez"
+    cover: "assets/perso_cover.jpg"
+
