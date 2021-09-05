@@ -17,8 +17,8 @@
 <div class="w-full m-0 p-0 bg-cover bg-bottom" style="background-image:url('cover.jpg'); height: 60vh; max-height:460px;">
 <div class="container max-w-4xl mx-auto pt-16 md:pt-32 text-center break-normal">
 <!--Title-->
-<p class="text-white font-extrabold text-3xl md:text-5xl" configurable="title">hey</p>
-<p class="text-xl md:text-2xl text-gray-500" configurable="welcome">yo</p>
+<p class="text-white font-extrabold text-3xl md:text-5xl" configurable="title">My projects</p>
+<p class="text-xl md:text-2xl text-gray-500" configurable="welcome"></p>
 </div>
 </div>
 <!--Container-->
@@ -29,7 +29,7 @@
 <div class="container mx-auto flex items-center">
 <div class="flex w-1/2 pl-4 text-sm">
 <ul class="list-reset flex justify-between flex-1 md:flex-none items-center" location="nav_list">
-<a class="inline-block py-2 px-2 text-white no-underline hover:underline" configurable="link_name" href="index.html">HOME</a></ul>
+<a class="inline-block py-2 px-2 text-white no-underline hover:underline" configurable="link_name" href="index.html">HOME</a><a class="inline-block py-2 px-2 text-white no-underline hover:underline" configurable="link_name" href="projects.html">PROJECTS</a></ul>
 </div>
 <div class="flex w-1/2 justify-end content-center">
 <a class="inline-block text-gray-500 no-underline hover:text-white hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 avatar" data-tippy-content="Share on @Twitter" href="https://twitter.com/intent/tweet?url=#">
@@ -46,17 +46,18 @@
 <!--/Lead Card-->
 <!--Posts Container-->
 <div class="flex h-full bg-white rounded overflow-hidden shadow-lg">
-<a class="flex flex-wrap no-underline hover:no-underline" href="gg" location="linkto">
+<a class="flex flex-wrap no-underline hover:no-underline" href="https://github.com/michaelb/sniprun" location="linkto">
 <div class="w-full md:w-2/3 rounded-t">
-<img class="h-full w-full shadow" location="cover" src="assets/perso_cover.jpg"/>
+<img class="h-full w-full shadow" location="cover" src="assets/Sniprun_social_preview.png"/>
 </div>
 <div class="w-full md:w-1/3 flex flex-col flex-grow flex-shrink">
 <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
-<p class="w-full text-gray-600 text-xs md:text-sm pt-6 px-6" configurable="lead_card_title">ABOUT ME</p>
-<div class="w-full font-bold text-xl text-gray-900 px-6" configurable="lead_card_welcome_bold_message">I'm a man of few words, but (too?) many ideas</div>
-<p class="text-gray-800 font-serif text-base px-6 mb-5" configurable="lead_card_message" style="white-space:pre-wrap">- "A software engineer who has 15 years of experience in a domain that exists since five" - Stephen Hawking, June 2009
-- "42" - Deep Thought, roughly 10M years before today
-- "Hopefully the skills are better than the sense of humour" - Plato, 400.BC </p>
+<p class="w-full text-gray-600 text-xs md:text-sm pt-6 px-6" configurable="lead_card_title">SNIPRUN</p>
+<div class="w-full font-bold text-xl text-gray-900 px-6" configurable="lead_card_welcome_bold_message">Run code directly from the editor</div>
+<p class="text-gray-800 font-serif text-base px-6 mb-5" configurable="lead_card_message" style="white-space:pre-wrap"> Sniprun is a Neovim plugin that allows the user to select and run code directly from the editor. It supports a large amount of different languages (including compiled ones) and output display options, and is probably the best solution out there, surpassing easily even other editor's similar plugins (VSCode's Code Runner, Emacs' OrgMode code evaluation).
+
+
+This Rust + Lua work is my flagship open-source project, runs since August 2020 and has attracted many users and contributors.</p>
 </div>
 <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
 <div class="flex items-center justify-between">
@@ -72,16 +73,7 @@
 <!--/ Post Content-->
 </div>
 <!--Author-->
-<div class="flex w-full items-center font-sans p-8 md:p-24">
-<img alt="Avatar of Author" class="w-10 h-10 rounded-full mr-4" location="author_icon" src="assets/avatar.jpg"/>
-<div class="flex-1">
-<p class="text-base font-bold text-base md:text-xl leading-none" configurable="bottom_author_name">Michael Bleuez</p>
-<p class="text-gray-600 text-xs md:text-base">Configurable rework of the Casper Tailwind CSS toolbox theme<a class="text-gray-800 hover:text-green-500 no-underline border-b-2 border-green-500" href="https://www.tailwindtoolbox.com"> TailwindToolbox.com</a></p>
-</div>
-<div class="justify-end">
-<a class="button bg-transparent border border-gray-500 hover:border-green-500 text-xs text-gray-500 hover:text-green-500 font-bold py-2 px-4 rounded-full" href="https://github.com/michaelb/michaelb.github.io">See configurable template sources</a>
-</div>
-</div>
+<div class="flex w-full items-center font-sans p-8 md:p-24" location="credits"></div>
 <!--/Author-->
 </div>
 </div>
@@ -90,7 +82,7 @@
 <div class="w-full mx-auto flex flex-wrap items-center">
 <div class="flex w-full md:w-1/2 justify-center md:justify-start text-white font-extrabold">
 <a class="text-gray-900 no-underline hover:text-gray-900 hover:no-underline" href="#">
-<span class="text-base text-gray-200" configurable="bottom_left_message">simpl</span>
+<span class="text-base text-gray-200" configurable="bottom_left_message">Yep, that's the bottom of the page</span>
 </a>
 </div>
 </div>
