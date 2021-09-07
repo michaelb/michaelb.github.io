@@ -159,6 +159,11 @@ def fill_card(soup, name, card_config):
     a = get_location(card_soup, 'cover')
     a.attrs['src'] = card_config['cover']
 
+    if "avatarlink" in card_config:
+        a = get_location(card_soup, 'avatarlink')
+        a.attrs['href'] = card_config['avatarlink']
+    
+
     if card_config['size'] in ["1/3", "1/2", "2/3"]:
         size_class = "w-bfull md:w-" + \
             card_config['size'] + " p-6 flex flex-col flex-grow flex-shrink"
@@ -175,6 +180,9 @@ with open("config.yml", 'r') as config_file:
     get_repos(d['github_username'])
     d.pop('github_username', None)
 
+    webpage_name = d['webpage_name']
+    d.pop('webpage_name', None)
+
     nav_list = []
     for page in d.values():
         with open("template/nav_item.html", 'r') as f:
@@ -185,12 +193,17 @@ with open("config.yml", 'r') as config_file:
             nav_list.append(a)
 
     for page in d.values():
+        if 'ignore' in page:
+            continue
         with open("template/index.html", 'r') as f:
             soup = BeautifulSoup(f, "html.parser")
             add_main_page_text(soup, page)
 
             b = get_location(soup, "nav_list")
             b.extend(nav_list)
+
+        a = get_location(soup, "title")
+        a.string = webpage_name
 
         if 'lead_card' in page:
             fill_lead_card(soup, page['lead_card'])

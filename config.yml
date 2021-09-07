@@ -1,9 +1,10 @@
 github_username: "michaelb"
+webpage_name: "Michael Bleuez | Software Engineer"
 home:
   tab_name: "HOME"
   file_location: "index.html"
-  title: "Hi"
-  welcome: ""
+  title: "Hi, I'm Michael"
+  welcome: "How do you do?"
   bottom_left_message: "Yep, that's the bottom of the page"
   bottom_author_name: "Michael Bleuez"
   avatar: "assets/avatar.jpg"
@@ -14,7 +15,7 @@ home:
     bold_message: "I'm a man of few words, but (too?) many ideas"
     message: "- \"A software engineer who has 15 years of experience in a domain that exists since five\" - Stephen Hawking, June 2009
 
-      - \"42\" - Deep Thought, roughly 10M years before today
+      - \"42\" - Deep Thought
 
       - \"Hopefully the skills are better than the sense of humour\" - Plato, 400.BC "
     read_time: ""
@@ -48,8 +49,8 @@ projects:
   tab_name: "PROJECTS"
   file_location: "projects.html"
   title: "My projects"
+  welcome: "Automatically updated from GitHub"
   bottom_left_message: "Yep, that's the bottom of the page"
-  welcome: ""
   lead_card:
     title: "SNIPRUN"
     links_to: "https://github.com/michaelb/sniprun"
@@ -77,16 +78,11 @@ projects:
       message: "Saving my mood and what inspires me on each day"
       size: "1/3"
       cover: "assets/thought.jpg"
-    vimtips:
-      name: "michaelb/vim-tips"
-      message: ""
-      size: "1/3"
-      cover: "assets/tips.png"
     libfprintinsec:
       name: "michaelb/libfprint-elan0c63-insecure"
-      message: ""
+      message: "Who knew fingerprint readers could be so complicated yet so simple"
       size: "2/3"
-      cover: "assets/fp.jpg"
+      cover: "assets/fp.png"
     donothing:
       name: "michaelb/do-nothing.vim"
       message: ""
@@ -117,6 +113,79 @@ projects:
       name: "michaelb/point-clustering"
       size: "1/3"
       message: ""
-      cover : ""
+      cover : "assets/cluster.png"
 
+liked:
+  tab_name: "I LIKE.."
+  file_location: "liked.html"
+  title: "What I like"
+  welcome: "Awesome curiosities"
+  bottom_left_message: "Yep, that's the bottom of the page"
+  cards:
+    cursed iceberg:
+      message: "From weird to chaotic-evil computer quirks"
+      bold_message: "The cursed computer iceberg meme"
+      avatar: "assets/suricrasia.png"
+      avatarlink: "https://suricrasia.online/"
+      author_name: "suricrasia"
+      cover: "assets/iceberg.png"
+      read_time: ""
+      links_to: "https://suricrasia.online/iceberg/"
+      size: "1/3"
 
+    art of code:
+      bold_message: "Art of code talk @NDC2020"
+      message: ""
+      avatar: "assets/ndc.jpg"
+      avatarlink: "https://dylanbeattie.net/"
+      author_name: "Dylan Beattie"
+      read_time: ""
+      links_to: "https://www.youtube.com/watch?v=6avJHaC3C2U"
+      size: "1/3"
+      cover: "assets/artofcode.png"
+
+    neovim:
+      bold_message: "An hyper-extensible, cutting edge Vim-based text editor"
+      links_to: "https://neovim.io/"
+      avatar: "assets/blank.jpg"
+      read_time: ""
+      size: "1/3"
+      cover: "assets/neovim-mark.png"
+      message: ""
+      author_name: ""
+
+    uroboros quine:
+      links_to: "https://github.com/mame/quine-relay"
+      bold_message: "A mind-blowing quine"
+      read_time: ""
+      author_name: "Yusuke Endoh"
+      message: ""
+      size: "1/3"
+      cover: "assets/langs.png"
+      avatar: "assets/mame.png"
+      avatarlink: "https://github.com/mame"
+
+    landauer's principle:
+      bold_message: "Information == energy"
+      message: "Between thermodynamics, CS and quantics lies a little demon"
+      links_to: "https://en.wikipedia.org/wiki/Landauer%27s_principle"
+      size : "1/3"
+      author_name: ""
+      avatar: "assets/blank.jpg"
+      read_time: ""
+      cover: "assets/land.png"
+
+    ingenuity:
+      bold_message: "a small copter at the very bleeding edge of spatial exploration for both hardware and software"
+      links_to: "https://github.com/readme/featured/nasa-ingenuity-helicopter"
+      size: "1/3"
+      author_name: ""
+      read_time: "Read time: 8min"
+      message: ""
+      cover: "assets/ing.jpg"
+      avatar: "assets/blank.jpg"
+
+contact:
+  tab_name: "CONTACT ME"
+  file_location: "contact.html"
+  ignore: ""
