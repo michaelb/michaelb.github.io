@@ -5,19 +5,14 @@ home:
   file_location: "index.html"
   title: "Hi, I'm Michael"
   welcome: "How do you do?"
-  bottom_left_message: "Yep, that's the bottom of the page"
   bottom_author_name: "Michael Bleuez"
   avatar: "assets/avatar.jpg"
 
   lead_card:
     title: "ABOUT ME"
-    links_to: "gg"
+    links_to: "about_me.html"
     bold_message: "I'm a man of few words, but (too?) many ideas"
-    message: "- \"A software engineer who has 15 years of experience in a domain that exists since five\" - Stephen Hawking, June 2009
-
-      - \"42\" - Deep Thought
-
-      - \"Hopefully the skills are better than the sense of humour\" - Plato, 400.BC "
+    message: "- \"A software engineer who has 15 years of experience in a domain that exists since five\" - Stephen Hawking, June 2009\n- \"42\" - Deep Thought\n- \"Hopefully the skills are better than the sense of humour\" - Plato, 400.BC "
     read_time: ""
     avatar: "assets/avatar.jpg"
     author_name: "Michael Bleuez"
@@ -36,12 +31,22 @@ home:
     gallery:
       message: "These photos are free to copy, modify and display under fair use"
       bold_message: "Some photos of me or taken by me"
-      author_name: "Michael Bleuez"
+      author_name: "michael bleuez"
       cover : "assets/gallery_cover.jpg"
       links_to: "gallery.html"
       avatar: "assets/blank.jpg"
       read_time: ""
       size : "2/3"
+    I like..: 
+      message: ""
+      bold_message: "My hobbies and the awesome curiosities I've stumbled upon along my journey"
+      author_name: ""
+      cover : "assets/hobbies.gif"
+      avatar: "assets/blank.jpg"
+      read_time: ""
+      links_to: "liked.html"
+      size : "2/3"
+
 
 
 
@@ -50,7 +55,6 @@ projects:
   file_location: "projects.html"
   title: "My projects"
   welcome: "Automatically updated from GitHub"
-  bottom_left_message: "Yep, that's the bottom of the page"
   lead_card:
     title: "SNIPRUN"
     links_to: "https://github.com/michaelb/sniprun"
@@ -68,16 +72,6 @@ projects:
     repo: True
     reponame: "michaelb/sniprun"
   cards_from_repo:
-    sniprun:
-      name: "michaelb/michaelb.github.io"
-      message: "Homemade personnal website"
-      size: "1/3"
-      cover : "assets/website.jpg"
-    dailythough:
-      name: "michaelb/dailythough"
-      message: "Saving my mood and what inspires me on each day"
-      size: "1/3"
-      cover: "assets/thought.jpg"
     libfprintinsec:
       name: "michaelb/libfprint-elan0c63-insecure"
       message: "Who knew fingerprint readers could be so complicated yet so simple"
@@ -114,13 +108,23 @@ projects:
       size: "1/3"
       message: ""
       cover : "assets/cluster.png"
+    site:
+      name: "michaelb/michaelb.github.io"
+      message: "Homemade personnal website"
+      size: "1/3"
+      cover : "assets/website.jpg"
+    dailythough:
+      name: "michaelb/dailythough"
+      message: "Saving my mood and what inspires me on each day"
+      size: "1/3"
+      cover: "assets/thought.jpg"
+
 
 liked:
-  tab_name: "I LIKE.."
+  ignore_in_nav: ""
   file_location: "liked.html"
   title: "What I like"
   welcome: "Awesome curiosities"
-  bottom_left_message: "Yep, that's the bottom of the page"
   cards:
     cursed iceberg:
       message: "From weird to chaotic-evil computer quirks"
@@ -179,11 +183,12 @@ liked:
       bold_message: "a small copter at the very bleeding edge of spatial exploration for both hardware and software"
       links_to: "https://github.com/readme/featured/nasa-ingenuity-helicopter"
       size: "1/3"
-      author_name: ""
+      author_name: "Klint Finley"
       read_time: "Read time: 8min"
       message: ""
       cover: "assets/ing.jpg"
-      avatar: "assets/blank.jpg"
+      avatar: "assets/finley.png"
+      avatarlink: "https://klintfinley.com/"
 
 contact:
   tab_name: "CONTACT ME"

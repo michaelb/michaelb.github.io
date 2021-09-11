@@ -22,8 +22,6 @@ def add_main_page_text(soup, page):
     b.string = page['title']
     b = get_configurable(soup, "welcome")
     b.string = page['welcome']
-    b = get_configurable(soup, "bottom_left_message")
-    b.string = page['bottom_left_message']
     if page['file_location'] == "index.html":
         b = get_configurable(soup, "bottom_author_name")
         b.string = page['bottom_author_name']
@@ -185,6 +183,8 @@ with open("config.yml", 'r') as config_file:
 
     nav_list = []
     for page in d.values():
+        if 'ignore_in_nav' in page:
+            continue
         with open("template/nav_item.html", 'r') as f:
             nav_item_soup = BeautifulSoup(f, 'html.parser')
             a = get_configurable(nav_item_soup, 'link_name')
