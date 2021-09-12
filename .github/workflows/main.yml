@@ -25,7 +25,7 @@ jobs:
       - name: Generate webpage
         run: |
           python generator/gallery.py > gallery.html
-          python generator/main.py ${{ secrets.GITHUB_TOKEN }}
+          python generator/main.py ${{ secrets.PAT }}
 
       # Commit the changes
       - name: Commit files
