@@ -11,8 +11,8 @@ home:
   lead_card:
     title: "ABOUT ME"
     links_to: "about_me.html"
-    bold_message: "I'm a man of few words, but (too?) many ideas"
-    message: "- \"A software engineer who has 15 years of experience in a domain that exists since five\" - Stephen Hawking, June 2009\n- \"42\" - Deep Thought\n- \"Hopefully the skills are better than the sense of humour\" - Plato, 400.BC "
+    bold_message: "A man of few words, but (too?) many ideas"
+    message: "I'm a junior software engineer who likes challenge and automation. But beyond that? Here you go"
     read_time: ""
     avatar: "assets/avatar.jpg"
     author_name: "Michael Bleuez"
@@ -39,7 +39,7 @@ home:
       size : "2/3"
     I like..: 
       message: ""
-      bold_message: "My hobbies and the awesome curiosities I've stumbled upon along my journey"
+      bold_message: "The awesome curiosities I've stumbled upon along my journey"
       author_name: ""
       cover : "assets/hobbies.gif"
       avatar: "assets/blank.jpg"
