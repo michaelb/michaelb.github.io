@@ -120,17 +120,17 @@ projects:
       message: "Saving my mood and what inspires me on each day"
       size: "1/3"
       cover: "assets/thought.jpg"
-    cards:
-      decac:
-        message: "(This repository is private)"
-        bold_message: "Compiler for an object-oriented programming language"
-        avatar: "assets/avatarmulti.jpg"
-        author_name: "Michael Bleuez and 4 teammates"
-        avatarlink: ""
-        cover: "assets/decac.png"
-        read_time: "Java"
-        links_to: ""
-        size: "1/3"
+  cards:
+    decac:
+      message: "(This repository is private)"
+      bold_message: "Compiler for an object-oriented programming language"
+      avatar: "assets/avatarmulti.jpg"
+      author_name: "Michael Bleuez and 4 teammates"
+      avatarlink: ""
+      cover: "assets/decac.png"
+      read_time: "Java"
+      links_to: ""
+      size: "1/3"
 
 
 liked:
