@@ -4,7 +4,8 @@ name: Site generator
 on:
   schedule:
     - cron: '42 2 * * *'
-  push: page
+  push:
+    branches: ['page']
 
   workflow_dispatch:
 
