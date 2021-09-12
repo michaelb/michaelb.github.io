@@ -111,7 +111,11 @@ def fill_card_from_repo(soup, card_config):
 
     a = get_location(card_soup, 'avatar')
     a2 = get_location(card_soup, 'avatarlink')
-    a.attrs['src'] = repo['owner']['avatar_url']
+    if not 'avatar' in card_config:
+        a.attrs['src'] = repo['owner']['avatar_url']
+    else:
+        a.attrs['src'] = card_config['avatar']
+
     if repo['forks_count'] == 0:
         a.attrs['data-tippy-content'] = username
         a2.attrs['href'] = repo['owner']['html_url']
