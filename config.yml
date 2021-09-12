@@ -203,6 +203,17 @@ liked:
       avatar: "assets/finley.png"
       avatarlink: "https://klintfinley.com/"
 
+    cmake raytracer:
+      bold_message: "Why CMake is ridiculously complex"
+      message: ""
+      size: "1/3"
+      cover: "assets/rt.png"
+      avatar: "assets/64.png"
+      avatarlink: "https://github/64"
+      read_time: ""
+      author_name: "64"
+      links_to: "https://github.com/64/cmake-raytracer"
+
 contact:
   tab_name: "CONTACT ME"
   file_location: "contact.html"
