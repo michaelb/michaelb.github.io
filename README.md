@@ -1,3 +1,23 @@
+# This is a rework of the [Tailwind Toolbox](https://www.tailwindtoolbox.com/) - [Ghostwind](https://www.tailwindtoolbox.com/templates/ghostwind) theme
+
+
+To use, simply fork this repository, set up a secret environment variable 'PAT' with a personnal access token with read permissions on all your repos.
+
+Edit the config.yml file as suits you and add other html file as necessary. Don't forget to remove my assets and set up yours!
+
+For faster development you can run locally the generator (`python generator/main.py` and `python generator/gallery.py > gallery.html`), you'll need the python packages 'ruamel.yaml' and 'beautifulsoup4'
+
+
+
+
+
+
+
+
+
+
+
+
 # [Tailwind Toolbox](https://www.tailwindtoolbox.com/) - [Ghostwind](https://www.tailwindtoolbox.com/templates/ghostwind)
 
 [Ghostwind Template](https://www.tailwindtoolbox.com/templates/ghostwind) is a clone of the Casper theme for Ghost created in [Tailwind CSS](https://tailwindcss.com/) by [Tailwind Toolbox](https://www.tailwindtoolbox.com/).
