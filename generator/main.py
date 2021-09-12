@@ -216,11 +216,10 @@ with open("config.yml", 'r') as config_file:
 
         if 'lead_card' in page:
             fill_lead_card(soup, page['lead_card'])
-        if 'cards' in page:
-            for name, card in page['cards'].items():
-                fill_card(soup, name, card)
         if 'cards_from_repo' in page:
             for name, card_in_repo in page['cards_from_repo'].items():
                 fill_card_from_repo(soup,card_in_repo)
-
+        if 'cards' in page:
+            for name, card in page['cards'].items():
+                fill_card(soup, name, card)
         print(soup, file=open(page['file_location'], 'w'))
