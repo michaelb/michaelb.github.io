@@ -80,6 +80,7 @@ def get_repos(username):
     gh_session = requests.Session()
     gh_session.auth = (username, token)
     repos = json.loads(gh_session.get(repos_url).text)
+    pprint(repos)
 
 
 def fill_card_from_repo(soup, card_config):

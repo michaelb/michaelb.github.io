@@ -22,8 +22,7 @@ jobs:
           python -m pip install ruamel.yaml
 
       # Generate the webpage
-      - name: Cr
-        id: stargazer
+      - name: Generate webpage
         run: |
           python generator/gallery.py > gallery.html
           python generator/main.py ${{ secrets.GITHUB_TOKEN }}
