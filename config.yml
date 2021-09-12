@@ -12,7 +12,7 @@ home:
     title: "ABOUT ME"
     links_to: "about_me.html"
     bold_message: "A man of few words, but (too?) many ideas"
-    message: "I'm a junior software engineer who likes challenge and automation. But beyond that? Here you go"
+    message: "I'm a junior software engineer who likes challenge and automation. But beyond that?\nHere you go"
     read_time: ""
     avatar: "assets/avatar.jpg"
     author_name: "Michael Bleuez"
