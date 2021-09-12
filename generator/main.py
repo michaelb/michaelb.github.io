@@ -57,7 +57,11 @@ def fill_lead_card(soup, lead_card_config):
         if repo['language'] is not None:
             a.string += " " + repo['language']
         a = get_location(lead_card_soup, 'avatar')
-        a.attrs['src'] = repo['owner']['avatar_url']
+        if not 'avatar' in card_config:
+            a.attrs['src'] = repo['owner']['avatar_url']
+        else:
+            a.attrs['src'] = card_config['avatar']
+
         if repo['forks_count'] == 0:
             a.attrs['data-tippy-content'] = username
         else:
