@@ -238,7 +238,18 @@ liked:
       cover: "assets/stdev.png"
       links_to: "https://stereotypical.dev/login"
       read_time: ""
+      avatarlink: "https://github.com/tommy-stevenson"
       author_name: "Tommy Stevenson"
+      size: "1/3"
+    codewriting:
+      bold_message: "Write dumb code"
+      message: "Nerds don't like cleaning up"
+      avatar: "assets/bo.jpeg"
+      cover: "assets/goldencircle.png"
+      links_to: "https://bloodyowl.io/blog/2021-01-09-write-dumb-code/"
+      avatarlink: "https://github/bloodyowl"
+      read_time: "3 MIN"
+      author_name: "Matthias Le Brun"
       size: "1/3"
 
 
