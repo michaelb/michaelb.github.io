@@ -244,7 +244,7 @@ liked:
     codewriting:
       bold_message: "Write dumb code"
       message: "Nerds don't like cleaning up"
-      avatar: "assets/bo.jpeg"
+      avatar: "assets/bo.png"
       cover: "assets/goldencircle.png"
       links_to: "https://bloodyowl.io/blog/2021-01-09-write-dumb-code/"
       avatarlink: "https://github/bloodyowl"
