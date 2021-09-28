@@ -251,6 +251,17 @@ liked:
       read_time: "3 MIN"
       author_name: "Matthias Le Brun"
       size: "1/3"
+    colorful_functions:
+      bold_message: "A inspired article about async"
+      avatar: "assets/bob.png"
+      links_to: "https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/"
+      read_time: "10 MIN"
+      author_name: "Bob Nystrom"
+      message: ""
+      size: "1/3"
+      avatarlink: ""
+      cover: "assets/color.png"
+          
 
 
 
