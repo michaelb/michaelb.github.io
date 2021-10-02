@@ -71,56 +71,46 @@ projects:
     cover: "assets/Sniprun_social_preview.png"
     repo: True
     reponame: "michaelb/sniprun"
-  cards_from_repo:
+  cards:
     libfprintinsec:
+      from_repo: "true"
       name: "michaelb/libfprint-elan0c63-insecure"
       message: "Who knew fingerprint readers could be so complicated yet so simple"
       size: "2/3"
       cover: "assets/fp.png"
     donothing:
+      from_repo: "true"
       name: "michaelb/do-nothing.vim"
       message: ""
       size: "1/3"
       cover: "assets/noothing.jpg"
       avatar: "assets/avatarmulti.jpg"
     shogai:
+      from_repo: "true"
       name: "michaelb/shogai"
       message: ""
       size: "1/2"
       cover: "assets/shogai.jpg"
     
     shogui:
+      from_repo: "true"
       name: "michaelb/shogui"
       message: ""
       size: "1/2"
       cover: "assets/shogui.png"
     autoytdl:
+      from_repo: "true"
       name: "michaelb/auto-ytdl"
       message: ""
       size: "1/3"
       cover: "assets/ayt.jpg"
       avatar: "assets/avatarmulti.jpg"
-    gopasscrack:
-      name: "michaelb/go-passwd-crack"
-      message: ""
-      size: "1/3"
-      cover: "assets/pas.jpg"
     clusterisation:
+      from_repo: "true"
       name: "michaelb/point-clustering"
       size: "1/3"
       message: ""
       cover : "assets/cluster.png"
-    site:
-      name: "michaelb/michaelb.github.io"
-      message: "Homemade personnal website"
-      size: "1/3"
-      cover : "assets/website.jpg"
-    dailythough:
-      name: "michaelb/dailythough"
-      message: "Saving my mood and what inspires me on each day"
-      size: "1/3"
-      cover: "assets/thought.jpg"
-  cards:
     decac:
       message: "(This repository is private)"
       bold_message: "Compiler for an object-oriented programming language"
@@ -231,7 +221,7 @@ liked:
       read_time: ""
       author_name: ""
       size: "1/3"
-    stereotypicaldev: 
+    stereotypical devs: 
       bold_message: "Something's not right, I find the right answer too often"
       message: ""
       avatar: "assets/ts.jpeg"
@@ -251,7 +241,7 @@ liked:
       read_time: "3 MIN"
       author_name: "Matthias Le Brun"
       size: "1/3"
-    colorful_functions:
+    colorful functions:
       bold_message: "A inspired article about async"
       avatar: "assets/bob.png"
       links_to: "https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/"

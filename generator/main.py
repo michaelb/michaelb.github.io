@@ -67,7 +67,6 @@ def fill_lead_card(soup, lead_card_config):
         else:
             a.attrs['data-tippy-content'] = "michaelb and other contributors"
 
-
     else:
         a = get_configurable(lead_card_soup, 'lead_card_read_time')
         a.string = lead_card_config['read_time']
@@ -77,6 +76,8 @@ def fill_lead_card(soup, lead_card_config):
 
 
 repos = None
+
+
 def get_repos(username):
     global repos
     token = sys.argv[1]
@@ -124,8 +125,8 @@ def fill_card_from_repo(soup, card_config):
         a2.attrs['href'] = repo['owner']['html_url']
     else:
         a.attrs['data-tippy-content'] = "See all contributors"
-        a2.attrs['href'] = "https://github.com/"+username+"/"+reponame+"/graphs/contributors"
-
+        a2.attrs['href'] = "https://github.com/" + \
+            username+"/"+reponame+"/graphs/contributors"
 
     if card_config['size'] in ["1/3", "1/2", "2/3"]:
         size_class = "w-bfull md:w-" + \
@@ -142,7 +143,6 @@ def fill_card_from_repo(soup, card_config):
 
     b = get_location(soup, 'card_container')
     b.append(card_soup)
-
 
 
 def fill_card(soup, name, card_config):
@@ -168,7 +168,6 @@ def fill_card(soup, name, card_config):
     if "avatarlink" in card_config:
         a = get_location(card_soup, 'avatarlink')
         a.attrs['href'] = card_config['avatarlink']
-    
 
     if card_config['size'] in ["1/3", "1/2", "2/3"]:
         size_class = "w-bfull md:w-" + \
@@ -215,10 +214,10 @@ with open("config.yml", 'r') as config_file:
 
         if 'lead_card' in page:
             fill_lead_card(soup, page['lead_card'])
-        if 'cards_from_repo' in page:
-            for name, card_in_repo in page['cards_from_repo'].items():
-                fill_card_from_repo(soup,card_in_repo)
         if 'cards' in page:
             for name, card in page['cards'].items():
-                fill_card(soup, name, card)
+                if 'from_repo' in card:
+                    fill_card_from_repo(soup, card)
+                else:
+                    fill_card(soup, name, card)
         print(soup, file=open(page['file_location'], 'w'))
