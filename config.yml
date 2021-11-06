@@ -12,7 +12,7 @@ home:
     title: "ABOUT ME"
     links_to: "about_me.html"
     bold_message: "A man of few words, but (too?) many ideas"
-    message: "I'm a junior software engineer who likes challenge and automation. But beyond that?\nHere you go"
+    message: "TDLR: I'm a junior software engineer who likes challenge and automation.\nMore personal things here"
     read_time: ""
     avatar: "assets/avatar.jpg"
     author_name: "Michael Bleuez"
@@ -91,6 +91,7 @@ projects:
       message: ""
       size: "1/2"
       cover: "assets/shogai.jpg"
+      position: 1
     
     shogui:
       from_repo: "true"
@@ -98,13 +99,7 @@ projects:
       message: ""
       size: "1/2"
       cover: "assets/shogui.png"
-    autoytdl:
-      from_repo: "true"
-      name: "michaelb/auto-ytdl"
-      message: ""
-      size: "1/3"
-      cover: "assets/ayt.jpg"
-      avatar: "assets/avatarmulti.jpg"
+      position: 2
     clusterisation:
       from_repo: "true"
       name: "michaelb/point-clustering"
@@ -120,7 +115,7 @@ projects:
       cover: "assets/decac.png"
       read_time: "Java"
       links_to: ""
-      size: "1/3"
+      size: "2/3"
 
 
 liked:

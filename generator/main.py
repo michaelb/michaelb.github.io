@@ -145,6 +145,13 @@ def fill_card_from_repo(soup, card_config):
     b.append(card_soup)
 
 
+def card_sorter(namecard):
+    card = namecard[1]
+    if 'position' in card:
+        return int(card['position'])
+    return 99999999999999
+
+
 def fill_card(soup, name, card_config):
     with open("template/card.html", 'r') as f:
         card_soup = BeautifulSoup(f, 'html.parser')
@@ -215,7 +222,8 @@ with open("config.yml", 'r') as config_file:
         if 'lead_card' in page:
             fill_lead_card(soup, page['lead_card'])
         if 'cards' in page:
-            for name, card in page['cards'].items():
+            for name, card in sorted(page['cards'].items(), key=card_sorter):
+                print("Generating card for: " + name)
                 if 'from_repo' in card:
                     fill_card_from_repo(soup, card)
                 else:
