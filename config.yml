@@ -253,6 +253,7 @@ jobs:
   tab_name: "JOBS"
   file_location: "jobs.html"
   title: "Where I've worked at"
+  welcome: ""
   lead_card:
     title: "Atos"
     links_to: "https://github.com/michaelb/sniprun"
