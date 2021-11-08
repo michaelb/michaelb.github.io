@@ -256,7 +256,7 @@ jobs:
   welcome: ""
   lead_card:
     title: "Atos"
-    links_to: "https://github.com/michaelb/sniprun"
+    links_to: "https://atos.net/en/"
     bold_message: "My current position"
     message: "Working on a state-of-the-art IO accelerator (a cache) for HPC systems"
     read_time: ""
@@ -266,16 +266,22 @@ jobs:
   cards:
     rhea:
       name: "Rhea Group"
+      links_to: "https://www.rheagroup.com/"
       bold_message: "Jul 2019 - Aug 2019"
       message: "Fiddling around with cybersecurity POCs, VMs and user simulation"
       size: "1/2"
       cover: "assets/rhea.png"
+      read_time: ""
+      author_name: ""
     ensimag:
       name: "Ensimag Grenoble-INP"
+      links_to: "https://ensimag.grenoble-inp.fr/"
       bold_message: "2019-2021"
       message: "Helping students manage their Linux-based work environment"
       cover: "assets/ensimag.png"
       size: "1/2"
+      read_time: ""
+      author_name: ""
 
 
 
