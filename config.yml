@@ -12,7 +12,7 @@ home:
     title: "ABOUT ME"
     links_to: "about_me.html"
     bold_message: "A man of few words, but (too?) many ideas"
-    message: "TDLR: I'm a junior software engineer who likes challenge and automation.\nMore personal things here"
+    message: "TDLR: I'm a junior software engineer who likes challenge and automation.\nI want to keep creating and learning things, but obviously there's much more to it than a short description..."
     read_time: ""
     avatar: "assets/avatar.jpg"
     author_name: "Michael Bleuez"
@@ -249,9 +249,34 @@ liked:
           
 
 
+jobs:
+  tab_name: "JOBS"
+  file_location: "jobs.html"
+  title: "Where I've worked at"
+  lead_card:
+    title: "Atos"
+    links_to: "https://github.com/michaelb/sniprun"
+    bold_message: "My current position"
+    message: "Working on a state-of-the-art IO accelerator (a cache) for HPC systems"
+    read_time: ""
+    avatar: "assets/blank.jpg"
+    author_name: "Michael Bleuez"
+    cover: "assets/atos.jpeg"
+  cards:
+    rhea:
+      name: "Rhea Group"
+      message: "Fiddling around with cybersecurity POCs, VMs and user simulation"
+      size: "1/2"
+      cover: "assets/rhea.png"
+    ensimag:
+      name: "Ensimag Grenoble-INP"
+      message: "Helping students manage their Linux-based work environment"
+      cover: "assets/ensimag.png"
+      size: "1/2"
+
 
 
 contact:
-  tab_name: "CONTACT ME"
+  tab_name: "CONTACT"
   file_location: "contact.html"
   ignore: ""
