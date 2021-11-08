@@ -266,11 +266,13 @@ jobs:
   cards:
     rhea:
       name: "Rhea Group"
+      bold_message: "Jul 2019 - Aug 2019"
       message: "Fiddling around with cybersecurity POCs, VMs and user simulation"
       size: "1/2"
       cover: "assets/rhea.png"
     ensimag:
       name: "Ensimag Grenoble-INP"
+      bold_message: "2019-2021"
       message: "Helping students manage their Linux-based work environment"
       cover: "assets/ensimag.png"
       size: "1/2"
