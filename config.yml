@@ -273,6 +273,7 @@ jobs:
       cover: "assets/rhea.png"
       read_time: ""
       author_name: ""
+      avatar: "assets/blank.jpg"
     ensimag:
       name: "Ensimag Grenoble-INP"
       links_to: "https://ensimag.grenoble-inp.fr/"
@@ -282,6 +283,7 @@ jobs:
       size: "1/2"
       read_time: ""
       author_name: ""
+      avatar: "assets/blank.jpg"
 
 
 
