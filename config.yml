@@ -71,6 +71,7 @@ projects:
     cover: "assets/Sniprun_social_preview.png"
     repo: True
     reponame: "michaelb/sniprun"
+    avatarlink: "https://github.com/michaelb/sniprun/graphs/contributors"
   cards:
     libfprintinsec:
       from_repo: "true"

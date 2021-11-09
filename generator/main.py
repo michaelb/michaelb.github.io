@@ -65,8 +65,7 @@ def fill_lead_card(soup, lead_card_config):
         if repo['forks_count'] == 0:
             a.attrs['data-tippy-content'] = username
         else:
-            a.attrs['data-tippy-content'] = "michaelb and other contributors"
-
+            a.attrs['data-tippy-content'] = "See all contributors"
     else:
         a = get_configurable(lead_card_soup, 'lead_card_read_time')
         a.string = lead_card_config['read_time']
