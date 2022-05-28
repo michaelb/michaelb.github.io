@@ -247,6 +247,15 @@ liked:
       size: "1/3"
       avatarlink: ""
       cover: "assets/color.png"
+    raytracer_tweet:
+      bold_message: "144 chars should be enough for that new AAA game"
+      avatar: "assets/frank_force.jpg"
+      avatarlink: "https://twitter.com/KilledByAPixel"
+      links_to: "https://twitter.com/KilledByAPixel/status/1517294627996545024"
+      author_name: "Frank Force"
+      message: ""
+      size: "1/3"
+      cover: "assets/rt2.png"
           
 
 
