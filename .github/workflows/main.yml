@@ -3,7 +3,7 @@ name: Site generator
 
 on:
   schedule:
-    - cron: '42 2 * * *'
+    - cron: '5 4 1,15 * *'
   push:
     branches: ['page']
 
