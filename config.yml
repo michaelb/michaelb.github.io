@@ -259,7 +259,7 @@ liked:
       read_time: ""
     user_inyerface:
       bold_message: "Modern user interface"
-      avatar: "assets/verhaert.jpg"
+      avatar: "assets/verhaert.png"
       avatarlink: ""
       links_to: "https://userinyerface.com/"
       author_name: "Verhaert Digital Innovation"
