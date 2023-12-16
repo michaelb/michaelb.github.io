@@ -278,11 +278,11 @@ jobs:
   lead_card:
     title: "Atos"
     links_to: "https://atos.net/en/"
-    bold_message: "Feb 2021 - current"
+    bold_message: "Feb 2021 - Nov 2023"
     message: "
       Working on a state-of-the-art IO accelerator for HPC systems
 
-      Along with a large team, I'm improving a mutli-level cache that transparently capures & redirect the read and writes from a slow, shared, large storage server to a closer machine hosting large quantities of RAM and SDD memory. Those are used to absorb fast bursts of IO activity, and free the client as soon as possible so that they can resume computation."
+      Along with a large team, I'm improving a mutli-level cache that transparently capures & redirect the read and writes from a (slow, large) shared storage server to a closer machine hosting large quantities of RAM and SDD memory. Those are used to absorb fast bursts of IO activity, and free the client as soon as possible so that they can resume computation."
     read_time: ""
     avatar: "assets/blank.jpg"
     author_name: "Michael Bleuez"
