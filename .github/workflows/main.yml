@@ -26,8 +26,8 @@ jobs:
       # Generate the webpage
       - name: Generate webpage
         run: |
-          python generator/gallery.py > gallery.html
           python generator/main.py ${{ secrets.PAT }}
+          # python generator/gallery.py > gallery.html
 
       # Commit the changes
       - name: Commit files

@@ -28,15 +28,6 @@ home:
       read_time: ""
       links_to: "https://michaelb.github.io/cv"
       size: "1/3"
-    gallery:
-      message: "These photos are free to copy, modify and display under fair use"
-      bold_message: "Some photos of me or taken by me"
-      author_name: "michael bleuez"
-      cover : "assets/gallery_cover.jpg"
-      links_to: "gallery.html"
-      avatar: "assets/blank.jpg"
-      read_time: ""
-      size : "2/3"
     I like..: 
       message: ""
       bold_message: "The awesome curiosities I've stumbled upon along my journey"
