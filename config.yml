@@ -178,7 +178,7 @@ liked:
       message: ""
       cover: "assets/ing.jpg"
       avatar: "assets/finley.png"
-      avatarlink: "https://klintfinley.com/"
+      avatarlink: "https://github.com/klintron"
 
     cmake raytracer:
       bold_message: "Does CMake have to be this powerful and complex?"
