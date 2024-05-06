@@ -174,7 +174,7 @@ liked:
       links_to: "https://github.com/readme/featured/nasa-ingenuity-helicopter"
       size: "1/3"
       author_name: "Klint Finley"
-      read_time: "Read time: 8min"
+      read_time: ""
       message: ""
       cover: "assets/ing.jpg"
       avatar: "assets/finley.png"
@@ -225,20 +225,20 @@ liked:
       cover: "assets/goldencircle.png"
       links_to: "https://bloodyowl.io/blog/2021-01-09-write-dumb-code/"
       avatarlink: "https://github.com/bloodyowl"
-      read_time: "3 MIN"
+      read_time: ""
       author_name: "Matthias Le Brun"
       size: "1/3"
     colorful functions:
       bold_message: "A inspired article about async"
       avatar: "assets/bob.png"
       links_to: "https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/"
-      read_time: "10 MIN"
+      read_time: ""
       author_name: "Bob Nystrom"
       message: ""
       size: "1/3"
       avatarlink: ""
       cover: "assets/color.png"
-    raytracer_tweet:
+    raytracer tweet:
       bold_message: "144 chars should be enough for that new AAA game"
       avatar: "assets/frank_force.jpg"
       avatarlink: "https://twitter.com/KilledByAPixel"
@@ -248,7 +248,7 @@ liked:
       size: "2/3"
       cover: "assets/rt2.png"
       read_time: ""
-    user_inyerface:
+    user inyerface:
       bold_message: "Modern user interface"
       avatar: "assets/verhaert.png"
       avatarlink: ""
@@ -258,6 +258,16 @@ liked:
       size: "1/3"
       cover: "assets/ui.png"
       read_time: ""
+    game of life universal contructor :
+      bold_message: "They completed the Game of Life"
+      message: "Absolute madlads proved by example that arbitrary constructible patterns just need 15 gliders to be created"
+      size: "1/3"
+      avatar: "assets/biggie.png"
+      avatarlink: "https://biggieblog.com/"
+      links_to: "https://biggieblog.com/building-arbitrary-life-patterns-in-15-gliders/"
+      cover: "assets/gol_ucc.png"
+      read_time: ""
+      author: "biggiemac42"
           
 
 
