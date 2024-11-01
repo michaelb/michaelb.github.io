@@ -311,6 +311,7 @@ jobs:
       avatar: "assets/blank.jpg"
       author_name: "Michael Bleuez"
       cover: "assets/atos.jpeg"
+      size: "3/3"
     Rhea:
       name: "Rhea Group"
       links_to: "https://www.rheagroup.com/"
