@@ -290,8 +290,7 @@ jobs:
     title: "Provenrun"
     links_to: "https://provenrun.com"
     bold_message: "2024 - now"
-    message: "
-      Writing applications for a secure OS
+    message: "Writing applications for a secure OS
       
       Leveraging hardware-level isolation features, the secure OS provencore provides a formally proven framework for applications to live in. But everyone's needs are different and the ecosystem is still maturing, so there is a lot do do on many aspects!"
     read_time: ""
@@ -311,13 +310,13 @@ jobs:
       avatar: "assets/blank.jpg"
       author_name: "Michael Bleuez"
       cover: "assets/atos.jpeg"
-      size: "3/3"
+      size: "2/3"
     Rhea:
       name: "Rhea Group"
       links_to: "https://www.rheagroup.com/"
       bold_message: "Jul 2019 - Aug 2019"
       message: "Fiddling around with cybersecurity POCs, VMs and user simulation"
-      size: "1/2"
+      size: "1/3"
       cover: "assets/rhea.png"
       read_time: ""
       author_name: ""
