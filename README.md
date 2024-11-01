@@ -1,22 +1,10 @@
 # This is a rework of the [Tailwind Toolbox](https://www.tailwindtoolbox.com/) - [Ghostwind](https://www.tailwindtoolbox.com/templates/ghostwind) theme
 
-
 To use, simply fork this repository, set up a secret environment variable 'PAT' with a personnal access token with read permissions on all your repos.
 
 Edit the config.yml file as suits you and add other html file as necessary. Don't forget to remove my assets and set up yours!
 
 For faster development you can run locally the generator (`python generator/main.py` and `python generator/gallery.py > gallery.html`), you'll need the python packages 'ruamel.yaml' and 'beautifulsoup4'
-
-
-
-
-
-
-
-
-
-
-
 
 # [Tailwind Toolbox](https://www.tailwindtoolbox.com/) - [Ghostwind](https://www.tailwindtoolbox.com/templates/ghostwind)
 
@@ -37,6 +25,7 @@ Looking for a dark mode version? Check it out here - https://github.com/chiptu/d
 ## Getting Started
 
 Choose one of the following options to get started:
+
 * [Download the latest release](https://github.com/tailwindtoolbox/Ghostwind/archive/master.zip)
 * Clone the repo: `git clone https://github.com/tailwindtoolbox/Ghostwind.git`
 * Fork the repo
@@ -51,7 +40,6 @@ Take a look at our [setup guide](https://www.tailwindtoolbox.com/setup) to start
 ## Bugs and Issues
 
 Have a bug or an issue with this template? [Open a new issue](https://github.com/tailwindtoolbox/ghostwind/issues/new) here on GitHub.
-
 
 ## Copyright and License
 
