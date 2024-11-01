@@ -284,21 +284,33 @@ liked:
 jobs:
   tab_name: "JOBS"
   file_location: "jobs.html"
-  title: "Where I've worked at"
+  title: "My professional journey"
   welcome: ""
   lead_card:
-    title: "Atos"
-    links_to: "https://atos.net/en/"
-    bold_message: "Feb 2021 - Nov 2023"
+    title: "Provenrun"
+    links_to: "https://provenrun.com"
+    bold_message: "2024 - now"
     message: "
-      Working on a state-of-the-art IO accelerator for HPC systems
-
-      Along with a large team, I'm improving a mutli-level cache that transparently capures & redirect the read and writes from a (slow, large) shared storage server to a closer machine hosting large quantities of RAM and SDD memory. Those are used to absorb fast bursts of IO activity, and free the client as soon as possible so that they can resume computation."
+      Writing applications for a secure OS
+      
+      Leveraging hardware-level isolation features, the secure OS provencore provides a formally proven framework for applications to live in. But everyone's needs are different and the ecosystem is still maturing, so there is a lot do do on many aspects!"
     read_time: ""
     avatar: "assets/blank.jpg"
     author_name: "Michael Bleuez"
-    cover: "assets/atos.jpeg"
+    cover: "assets/pnr.png"
   cards:
+    Atos:
+      name: "Atos Eviden"
+      links_to: "https://atos.net/en/"
+      bold_message: "2021 - 2023"
+      message: "
+        Working on a state-of-the-art IO accelerator for HPC systems
+
+        Along with a large team, I'm improving a multi-level cache that transparently capures & redirect the read and writes from a (slow, large) shared storage server to a closer machine hosting large quantities of RAM and SDD memory. Those are used to absorb fast bursts of IO activity, and free the client as soon as possible so that they can resume computation."
+      read_time: ""
+      avatar: "assets/blank.jpg"
+      author_name: "Michael Bleuez"
+      cover: "assets/atos.jpeg"
     Rhea:
       name: "Rhea Group"
       links_to: "https://www.rheagroup.com/"
