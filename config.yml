@@ -12,14 +12,14 @@ home:
     title: "ABOUT ME"
     links_to: "about_me.html"
     bold_message: "A man of few words, but (too?) many ideas"
-    message: "I'm a somewhat weird person with a broken sense of humour, kinda broken tastes in music and I guess an alright intuition when it comes to technology... Btw all those tiles are clickable if you want to know more :-)"
+    message: "I'm a nerd with a twisted sense of humour, weird taste in music and an unappropriate amount of surface-level knowledge... Btw all those tiles are clickable if you want to know more :-)"
     read_time: ""
     avatar: "assets/avatar.jpg"
     author_name: "Michael Bleuez"
     cover: "assets/perso_cover.jpg"
 
   cards:
-    resume:
+    My resume:
       message: "Available in French, English, web and PDF versions"
       bold_message: "My updated resume"
       avatar: "assets/blank.jpg"
