@@ -290,9 +290,9 @@ jobs:
     title: "Provenrun"
     links_to: "https://provenrun.com"
     bold_message: "2024 - now"
-    message: "Writing applications for a secure OS
+    message: "Writing Rust & C applications for a secure OS
       
-      Leveraging hardware-level isolation features, the secure OS provencore provides a formally proven framework for applications to live in. But everyone's needs are different and the ecosystem is still maturing, so there is a lot do do on many aspects!"
+      Leveraging hardware-level isolation features, the secure OS provencore provides a formally proven framework for applications to live in. But everyone's needs are different and the 'ecosystem' is still maturing, so there is a lot do do on many aspects - especially in Rust! "
     read_time: ""
     avatar: "assets/blank.jpg"
     author_name: "Michael Bleuez"
