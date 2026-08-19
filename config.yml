@@ -278,6 +278,16 @@ liked:
       cover: "assets/universalpaperclips.png"
       read_time: ""
       author_name: ""
+    neal.fun:
+      bold_message: "awesome creativity"
+      message: "and they never stop updating"
+      size: "1/3"
+      avatar: "assets/neal_fun.jpg"
+      avatarlink: ""
+      links_to: "https://neal.fun"
+      cover: "assets/neal_fun_cover.png"
+      read_time: ""
+      author_name: "neal agarwal"
           
 
 
