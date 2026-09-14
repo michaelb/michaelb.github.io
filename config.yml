@@ -36,7 +36,16 @@ home:
       avatar: "assets/blank.jpg"
       read_time: ""
       links_to: "liked.html"
-      size : "2/3"
+      size : "1/3"
+    Stuff I created: 
+      message: ""
+      bold_message: "I also touch grass sometimes..."
+      author_name: ""
+      cover : "assets/work.png"
+      avatar: "assets/blank.jpg"
+      read_time: ""
+      links_to: "liked.html"
+      size : "1/3"
 
 
 
@@ -340,6 +349,23 @@ jobs:
       read_time: ""
       author_name: ""
       avatar: "assets/blank.jpg"
+
+stuff I created:
+  ignore_in_nav: ""
+  file_location: "created.html"
+  title: "Things I did"
+  welcome: "I'm having fun at least"
+  cards:
+    cursed iceberg:
+      message: "From weird to chaotic-evil computer quirks"
+      bold_message: "The cursed computer iceberg meme"
+      avatar: "assets/suricrasia.png"
+      avatarlink: "https://suricrasia.online/"
+      author_name: "suricrasia"
+      cover: "assets/iceberg.png"
+      read_time: ""
+      links_to: "https://suricrasia.online/iceberg/"
+      size: "1/3"
 
 
 
