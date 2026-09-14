@@ -44,7 +44,7 @@ home:
       cover : "assets/work.png"
       avatar: "assets/blank.jpg"
       read_time: ""
-      links_to: "liked.html"
+      links_to: "created.html"
       size : "1/3"
 
 
@@ -356,17 +356,16 @@ stuff I created:
   title: "Things I did"
   welcome: "I'm having fun at least"
   cards:
-    cursed iceberg:
-      message: "From weird to chaotic-evil computer quirks"
-      bold_message: "The cursed computer iceberg meme"
-      avatar: "assets/suricrasia.png"
-      avatarlink: "https://suricrasia.online/"
+    LaundryBench:
+      message: "_THE_ AI benchmark AI companies are scared of"
+      bold_message: "credits to a random commenter in Youtube comment section for the idea"
+      avatar: "assets/blank.png"
+      avatarlink: ""
       author_name: "suricrasia"
-      cover: "assets/iceberg.png"
+      cover: "assets/laundrybench.png"
       read_time: ""
-      links_to: "https://suricrasia.online/iceberg/"
+      links_to: "https://michaelbleuez.com/laundrybench/"
       size: "1/3"
-
 
 
 contact:
