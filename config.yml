@@ -356,6 +356,16 @@ stuff I created:
   title: "Things I did"
   welcome: "I'm having fun at least"
   cards:
+    blog:
+      bold_message: "a lot of rambling, basically"
+      message: "about the things no one cares about IRL"
+      avatar: "assets/blank.jpg"
+      avatarlink: ""
+      author_name: "me"
+      cover: "assets/blog.png"
+      read_time: ""
+      links_to: "https://blog.michaelbleuez.com/"
+      size: "2/3"
     LaundryBench:
       bold_message: "_THE_ AI benchmark AI companies are scared of"
       message: "credits to a random commenter in Youtube comment section for the idea"
