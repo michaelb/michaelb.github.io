@@ -297,6 +297,16 @@ liked:
       cover: "assets/neal_fun_cover.png"
       read_time: ""
       author_name: "Neal Agarwal"
+    football 17776:
+      bold_message: "football fans are kinda _out there_ man"
+      message: ""
+      size: "1/3"
+      avatar: "assets/blank.jpg"
+      avatarlink: ""
+      links_to: "https://www.sbnation.com/a/17776-football/chapter-1"
+      cover: "assets/17776-football.png"
+      read_time: "infinite"
+      author_name: "SBNATION"
 
 
 jobs:
